@@ -38,7 +38,7 @@ There are four other properties that need to be set in the properties file:
 
 •	The adminID property is set to the account that will execute the commands. This account must have admin rights to authenticate to the Helpdesk UI. The account must also have a password set for the password method. The property must include the repository and must have four slashes. For example:
 
-LOCAL\\\\admin
+LOCAL\\\\\\\\admin
 
 •	The mode property must be set to one of three values: add, update, clear
 
