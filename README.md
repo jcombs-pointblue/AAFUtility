@@ -4,9 +4,13 @@ Advanced Authentication Card Utility
 Micro Focus Advanced Authentication provides a REST API that is used by this utility to register authentication cards and associate them with users.
 
 The utility is implemented in Java and require JRE 1.8 or higher. The components of the utility are:
+
 •	dist/AAFUtility.jar – contain the utility
+
 •	/lib/commons-codec-1.11.jar – The Apache codec library
+
 •	/lib/json-20180813.jar – The org.json library
+
 •	AAFUtility.properties – The properties file used to configure the utility.
 
 The utility requires a CSV file as input. The format of the file is:
