@@ -1,9 +1,9 @@
 # AAFUtility
 Advanced Authentication Card Utility
 
-Micro Focus Advanced Authentication provides a REST API that is used by this utility to register authentication cards and associate them with users.
+Micro Focus (now Opentext) Advanced Authentication provides a REST API that is used by this utility to register authentication cards and associate them with users.
 
-The utility is implemented in Java and require JRE 1.8 or higher. The components of the utility are:
+The utility is implemented in Java and requires JRE 1.8 or higher. The components of the utility are:
 
 	• dist/AAFUtility.jar – contain the utility
 
@@ -63,7 +63,7 @@ https://aaf61.pointbluetech.com
 NOTE!! Please ensure that there are no trailing spaces on the lines of the property file.
 
 
-Once the properties file is complete, the utility run from the command prompt by changing to the “dist” directory and executing the command:
+Once the properties file is complete, the utility is run from the command prompt by changing to the “dist” directory and executing the command:
 
 	java -jar AAFUtility.jar <path to config file> <path to data file> <admin password>
 
